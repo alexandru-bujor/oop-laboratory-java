@@ -19,15 +19,22 @@ public class Display {
         int osize = m.width*m.height;
 
         if ( tsize > osize ) { System.out.print("The display " + this.model + " is bigger than " + m.model); }
-
+        else if (tsize == osize) { System.out.print("The displays are the same size");}
+        else { System.out.print("The " + m.model + " is bigger than " + this.model);}
     }
 
     void compareWithMonitor(Display m){
+
 
     }
 
 
     void compareSharpness(Display m){
+
+        float tsize = this.ppi;
+        float msize = m.ppi;
+
+        if
 
     }
 
