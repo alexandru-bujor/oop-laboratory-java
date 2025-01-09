@@ -11,6 +11,8 @@ public class Main {
         Display d2 = new Display(1440, 900, 67.0f, "AOC");
 
         d1.compareSize(d2);
+        d1.compareSharpness(d2);
+        d1.compareWithMonitor(d2);
 
 
     }
