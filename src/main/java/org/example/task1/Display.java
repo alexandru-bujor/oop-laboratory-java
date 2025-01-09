@@ -34,7 +34,9 @@ public class Display {
         float tsize = this.ppi;
         float msize = m.ppi;
 
-        if
+        if ( tsize > msize ) { System.out.print("The display " + this.model + " has more ppi than  " + m.model); }
+        else if (tsize == msize) { System.out.print("The displays are at the same ppi.");}
+        else { System.out.print("The " + m.model + " has more ppi than " + this.model);}
 
     }
 
