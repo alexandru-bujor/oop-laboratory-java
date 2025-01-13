@@ -5,7 +5,7 @@ public class Display {
     int width;
     int height;
     float ppi;
-    String model;
+    public String model;
 
     public Display(int width, int height, float ppi, String model) {
         this.width = width;
